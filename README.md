@@ -1,1 +1,1 @@
-# stegacrypto
+# StegaCrypto
