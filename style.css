@@ -121,6 +121,7 @@ body{
     display: inline-block;
     font-family: sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #about {

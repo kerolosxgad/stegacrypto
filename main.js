@@ -80,9 +80,10 @@ var encode = function() {
     ctx.putImageData(imgData, 0, 0);
 
     // view the new image
-    alert('Done! When the image appears, save and share it with someone.');
+    alert('Done! When the image appears, click to download it.');
 
     output.src = canvas.toDataURL();
+    download.href = canvas.toDataURL();
 
 };
 
